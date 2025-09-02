@@ -53,7 +53,6 @@ PACKAGE_LIST=(
     "libjpeg-turbo"
     "zstd"
     "openjpeg"
-    "libtiff"
     "opencv"
     "ffmpeg"
     "libflac"
@@ -64,6 +63,7 @@ PACKAGE_LIST=(
     "libtar"
     "cfitsio"
     "aws-sdk-cpp"
+    "libtiff"
 )
 
 for PACKAGE in "${PACKAGE_LIST[@]}"; do
